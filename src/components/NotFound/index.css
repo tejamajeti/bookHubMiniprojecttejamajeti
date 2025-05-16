@@ -52,3 +52,8 @@
   cursor: pointer;
   color: #ffff;
 }
+
+.not-found-container button:hover {
+  transform: scale(1.1);
+  background: #026698;
+}
