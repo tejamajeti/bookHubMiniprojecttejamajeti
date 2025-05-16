@@ -1,0 +1,240 @@
+.shelf-div {
+  background-color: #f5f7fa;
+  width: 98vw;
+  min-height: 100vh;
+  top: 9322px;
+  left: 6356px;
+}
+
+.shelf-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.filters-container {
+  width: 226px;
+  height: 99vh;
+  top: 137px;
+  list-style-type: none;
+  padding: 16px;
+  background-color: #ffff;
+}
+
+.books-container {
+  width: calc(100% - 280px);
+  height: 100%;
+  padding: 16px;
+}
+
+.search-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  border: none;
+  outline: none;
+}
+
+.search-container h1 {
+  color: #334155;
+  font: Inter;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  width: 50%;
+  height: 22px;
+  top: 144px;
+  left: 438px;
+  content: All Books;
+}
+
+.search-container div {
+  width: 264px;
+  height: 36px;
+  top: 137px;
+  left: 1026px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid #edeff1;
+  border-radius: 5px;
+}
+
+.search-container div:nth-of-type(1):hover {
+  transform: scale(1.1);
+  border: 1px solid grey;
+}
+
+.search-container div button {
+  background: #edeff1;
+  max-width: 55px;
+  width: 100%;
+  height: 34px;
+  top: 138px;
+  left: 1237px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.search-container div img {
+  width: 20px;
+  height: 20px;
+  margin: auto;
+  margin-top: 3px;
+}
+
+.search-container div input {
+  outline: none;
+  border: none;
+  height: 34px;
+  width: calc(100% - 50px);
+  color: #727374;
+  font: Inter;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.success-ul {
+  list-style-type: none;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 8px;
+}
+
+.footer li {
+  width: 21px;
+  height: 21px;
+  top: 899px;
+  left: 771px;
+  font-family: Font Awesome 5 Brands;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #3d3c3c;
+}
+
+.footer {
+  width: 280px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: auto;
+  margin-left: 380px;
+  margin-top: 150px;
+}
+
+.bookShelevs {
+  color: #334155;
+  font: Inter;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0%;
+  width: 124px;
+  height: 32px;
+  text-align: center;
+}
+
+.shelf-contact {
+  color: #3d3c3c;
+  font: HK Grotesk;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  content: Contact Us;
+  width: 80px;
+  height: 24px;
+  top: 936px;
+  left: 699px;
+  margin: auto;
+  margin-top: 20px;
+  margin-left: 500px;
+}
+
+.empty-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+}
+
+.empty-container img {
+  width: 40%;
+}
+
+.empty-container p {
+  content: Your search for dsadsdsad did not find any matches;
+  color: #334155;
+  font: Inter;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  width: 604px;
+  height: 29px;
+  top: 685px;
+  left: 618px;
+}
+
+.failure-container {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-container img {
+  width: 469.000244140625px;
+  height: 230.00112915039062px;
+}
+
+.failure-container p {
+  content:
+    Something went wrong,
+    Please try again;
+  font: Inter;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 48px;
+  letter-spacing: 0%;
+  color: #475569;
+  width: 469px;
+  height: 48px;
+}
+
+.failure-container button {
+  background: #0284c7;
+  width: 112px;
+  height: 48px;
+  border-radius: 12px;
+  gap: 8px;
+  padding-top: 12px;
+  padding-right: 24px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #ffff;
+}

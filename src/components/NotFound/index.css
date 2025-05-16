@@ -1,0 +1,54 @@
+.not-found-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f5fa;
+}
+
+.not-found-container h2 {
+  content: Page Not Found;
+  color: #334155;
+  font: Inter;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+  width: 245px;
+  height: 48px;
+  top: 576px;
+  left: 598px;
+}
+
+.not-found-container p {
+  color: #475569;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: center;
+  width: 543px;
+  height: 64px;
+  top: 636px;
+  left: 449px;
+}
+
+.not-found-container button {
+  background: #0284c7;
+  width: 164px;
+  height: 48px;
+  border-radius: 12px;
+  gap: 8px;
+  padding-top: 12px;
+  padding-right: 24px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #ffff;
+}
