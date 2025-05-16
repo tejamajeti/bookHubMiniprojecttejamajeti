@@ -50,11 +50,6 @@ class Home extends Component {
         id: eachBook.id,
         title: eachBook.title,
       }))
-      const uniqueBooks = Array.from(
-        new Map(updatedData.map(item => [item.id, item])).values(),
-      )
-      console.log(updatedData)
-      console.log(uniqueBooks)
       this.setState({
         topRatedBooksList: updatedData,
         apiStatus: homepageApiStatus.success,
